@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <script src="synaptic.min.js"></script>
+    <style>
+        @font-face {
+            font-family: 'Press Start 2P';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(font.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        canvas {
+            display: block;
+            margin: 0 auto;
+            background-color: #000;
+        }
+
+        .games {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+    </style>
+    <script src="tetris.js"></script>
+    <script src="input.js"></script>
+    <script>
+
+        function init() {
+            const tetris1 = new Tetris('tetris1');
+            tetris1.start();
+            initializeInput(tetris1);
+        }
+
+    </script>
+</head>
+
+<body onload="init()">
+    <div class="games">
+        <canvas id="tetris1" width="160" height="144"></canvas>       
+    </div>
+</body>
+
+</html>
