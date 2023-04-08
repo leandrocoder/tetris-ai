@@ -1,0 +1,22 @@
+{
+  "name": "game-ai",
+  "version": "1.0.0",
+  "description": "Tetris Game controlled by a Neural Network AI",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrocoder/tetris-ai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrocoder/tetris-ai/issues"
+  },
+  "homepage": "https://github.com/leandrocoder/tetris-ai#readme",
+  "dependencies": {
+    "ws": "^8.13.0"
+  }
+}

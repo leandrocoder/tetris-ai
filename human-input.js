@@ -1,7 +1,5 @@
 function initializeInput(tetris) {
     document.addEventListener('keydown', event => {
-        console.log(event.keyCode);
-
         if (event.keyCode === 37) {
             tetris.playerMove(-1);
         } else if (event.keyCode === 38) {

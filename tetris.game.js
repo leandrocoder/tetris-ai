@@ -1,4 +1,4 @@
-class Tetris {
+class TetrisGame {
     constructor(canvasId) {
 
         this.scale = 2;
@@ -47,6 +47,25 @@ class Tetris {
         this.draw = this.draw.bind(this);
         this.update = this.update.bind(this);
         this.draw();
+        this.start()
+
+        document.addEventListener('keydown', event => {
+            if (event.keyCode === 37) {
+                this.playerMove(-1);
+            } else if (event.keyCode === 38) {
+                this.playerRotate(1);
+            } else if (event.keyCode === 39) {
+                this.playerMove(1);
+            } else if (event.keyCode === 40) {
+                this.playerDrop();
+            } else if (event.keyCode === 107) this.tickSpeed++;
+            else if (event.keyCode === 109) this.tickSpeed--;
+            if (this.tickSpeed < 1) this.tickSpeed = 1;
+            if (this.tickSpeed > 100) this.tickSpeed = 100;
+            else if (event.keyCode === 72) { // Pressione a tecla 'H' para segurar a peça
+                this.playerHold();
+            }
+        });
     }
 
     start() {
@@ -371,4 +390,3 @@ class Tetris {
         return roughness;
     }
 }
-
