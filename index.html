@@ -33,23 +33,25 @@
             padding: 1rem;
         }
     </style>
+
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+
     <script src="game.js"></script>
     <script src="game.ai.js"></script> 
     <script src="dino.game.js"></script>
     <script src="dino.ai.js"></script>
     <script src="tetris.game.js"></script>
+    <script type="text/babel" src="debug.ui.js"></script>
 
     <script>
         function init() {
             //const game = new DinoGame();
             const game = new TetrisGame('gamecanvas');
             //const ai = new DinoAI(game);
+            window.game = game;
             //ai.train();
-
-            const tickSpeedSlider = document.getElementById('tick-speed-slider');
-            tickSpeedSlider.addEventListener('change', () => {
-                game.framework.tickSpeed = parseInt(tickSpeedSlider.value);
-            });
         }
     </script>
 </head>
@@ -62,10 +64,10 @@
         </div>
         <div>
             <label for="tick-speed-slider">Tick Speed</label>
-            <input type="range" id="tick-speed-slider" min="1" max="16" value="1" step="1">
-            <div id="debug"></div>
+            <input type="range" id="tick-speed-slider" min="1" max="32" value="1" step="1">
+            <div id="debug-ui"></div>
         </div>
-    </div>    
+    </div>  
 </body>
 
 </html>

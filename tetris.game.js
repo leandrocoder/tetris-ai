@@ -1,16 +1,8 @@
-class TetrisGame {
+class TetrisGame extends Game {
+
     constructor(canvasId) {
 
-        this.scale = 2;
-        this.tickSpeed = 1;
-
-        this.canvas = document.getElementById(canvasId);
-        this.canvas.width = 160 * this.scale;
-        this.canvas.height = 144 * this.scale;
-        this.ctx = this.canvas.getContext('2d');
-        this.ctx.scale(this.scale * 7, this.scale * 7);
-        this.ctx.imageSmoothingEnabled = false;
-        this.ctx.textBaseline = 'top';
+        super(canvasId, { scale: 1, tile_size: 7} );
 
         this.arena = this.createMatrix(10, 20);
         this.player = {
@@ -38,39 +30,30 @@ class TetrisGame {
         this.level = 1;
 
         this.dropCounter = 0;
-        this.dropInterval = 500;
+        this.dropInterval = 400;
         this.lastTime = 0;
 
         this.hold = null;
         this.hasHold = false;
+    }
 
-        this.draw = this.draw.bind(this);
-        this.update = this.update.bind(this);
-        this.draw();
-        this.start()
-
-        document.addEventListener('keydown', event => {
-            if (event.keyCode === 37) {
-                this.playerMove(-1);
-            } else if (event.keyCode === 38) {
-                this.playerRotate(1);
-            } else if (event.keyCode === 39) {
-                this.playerMove(1);
-            } else if (event.keyCode === 40) {
-                this.playerDrop();
-            } else if (event.keyCode === 107) this.tickSpeed++;
-            else if (event.keyCode === 109) this.tickSpeed--;
-            if (this.tickSpeed < 1) this.tickSpeed = 1;
-            if (this.tickSpeed > 100) this.tickSpeed = 100;
-            else if (event.keyCode === 72) { // Pressione a tecla 'H' para segurar a peça
-                this.playerHold();
-            }
-        });
+    handleKeyDown(e) {
+        const { keyCode } = e;
+        if (keyCode === 37) {
+            this.playerMove(-1);
+        } else if (keyCode === 38) {
+            this.playerRotate(1);
+        } else if (keyCode === 39) {
+            this.playerMove(1);
+        } else if (keyCode === 40) {
+            this.playerDrop();
+        } else if (keyCode === 72) { // Pressione a tecla 'H' para segurar a peça
+            this.playerHold();
+        }
     }
 
     start() {
         this.playerReset();
-        this.update();
     }
 
     createMatrix(w, h) {
@@ -171,23 +154,20 @@ class TetrisGame {
     }
 
     draw() {
-        this.ctx.fillStyle = '#619f98'; // Fundo estilo Game Boy
-        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
-        
+        this.drawRect(0, 0, this.framework.canvas.width, this.framework.canvas.height, '#619f98')
         this.drawWalls();
         this.drawMatrix(this.arena, { x: 2, y: 0 });
         this.drawMatrix(this.player.matrix, { x: 2 + this.player.pos.x, y: this.player.pos.y });
         this.drawStats();
-        requestAnimationFrame(this.draw);
     }
 
     drawWalls() {
-        this.ctx.fillStyle = '#F0EAD6'; // Fundo estilo Game Boy
-        this.ctx.fillRect(1, 0, 12, this.canvas.height);
-        this.ctx.fillStyle = '#003300';
-        this.ctx.fillRect(1, 0, 1, this.canvas.height);
-        this.ctx.fillRect(12, 0, 1, this.canvas.height);
-        this.ctx.fillRect(1, 20, 12, 1);
+        this.framework.ctx.fillStyle = '#F0EAD6'; // Fundo estilo Game Boy
+        this.framework.ctx.fillRect(1, 0, 12, this.framework.canvas.height);
+        this.framework.ctx.fillStyle = '#003300';
+        this.framework.ctx.fillRect(1, 0, 1, this.framework.canvas.height);
+        this.framework.ctx.fillRect(12, 0, 1, this.framework.canvas.height);
+        this.framework.ctx.fillRect(1, 20, 12, 1);
     }
 
     drawMatrix(matrix, offset) {
@@ -195,8 +175,8 @@ class TetrisGame {
         matrix.forEach((row, y) => {
             row.forEach((value, x) => {
                 if (value !== 0) {
-                    this.ctx.fillStyle = this.colors[value];
-                    this.ctx.fillRect(x + offset.x,
+                    this.framework.ctx.fillStyle = this.colors[value];
+                    this.framework.ctx.fillRect(x + offset.x,
                         y + offset.y,
                         1, 1);
                 }
@@ -204,28 +184,24 @@ class TetrisGame {
         });
     }
 
-    update(time = 0) {
+    update(delta = 0) {
 
-        console.log('tickSpeed', this.tickSpeed)
-        for (let i = 0; i < this.tickSpeed; i++) {
-
-            this.dropCounter += 10;
-            if (this.dropCounter > this.dropInterval) {
-                this.playerDrop();
-            }
+        this.dropCounter += delta;
+        if (this.dropCounter > this.dropInterval) {
+            this.playerDrop();
         }
-
-        requestAnimationFrame(this.update);
     }
 
+    /*
     drawText(text, x, y, size = 0.9, color = '#003300') {
         const maxChars = 9;
         text = text.substring(0, maxChars);
         while (text.length < maxChars) text = ' ' + text;
-        this.ctx.font = `${size}px "Press Start 2P"`;
-        this.ctx.fillStyle = color;
-        this.ctx.fillText(text, x, y);
+        this.framework.ctx.font = `${size}px "Press Start 2P"`;
+        this.framework.ctx.fillStyle = color;
+        this.framework.ctx.fillText(text, x, y);
     }
+    */
 
     increaseLevel() {
         this.level++;
@@ -233,14 +209,14 @@ class TetrisGame {
     }
 
     drawStats() {
-        this.drawText(`SCORE`, 14, 1);
-        this.drawText(`${this.points}`, 14, 2);
+        this.drawText(`SCORE`, 14, 1, '#003300');
+        this.drawText(`${this.points}`, 14, 3, '#003300');
 
-        this.drawText(`LEVEL`, 14, 4);
-        this.drawText(`${this.level}`, 14, 5);
+        this.drawText(`LEVEL`, 14, 5, '#003300');
+        this.drawText(`${this.level}`, 14, 7, '#003300');
 
-        this.drawText(`LINES`, 14, 7);
-        this.drawText(`${this.lines}`, 14, 8);
+        this.drawText(`LINES`, 14, 9, '#003300');
+        this.drawText(`${this.lines}`, 14, 11, '#003300');
     }
 
     clearLines() {
