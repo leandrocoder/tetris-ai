@@ -4,7 +4,9 @@
   "description": "Tetris Game controlled by a Neural Network AI",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "neu update",
+    "start": "neu run",
+    "build": "neu build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/leandrocoder/tetris-ai#readme",
   "dependencies": {
     "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@neutralinojs/neu": "^9.5.0"
   }
 }
