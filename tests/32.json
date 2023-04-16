@@ -1,0 +1,2119 @@
+{
+    "id": 31,
+    "cols": 12,
+    "rows": 20,
+    "pieces": [
+        "O",
+        "J",
+        "L",
+        "Z",
+        "S",
+        "T",
+        "I"
+    ],
+    "lines": 108,
+    "level": 10,
+    "drops": 371,
+    "logs": [
+        {
+            "piece": "S",
+            "height": 0,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 0
+        },
+        {
+            "piece": "I",
+            "height": 2,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 3
+        },
+        {
+            "piece": "O",
+            "height": 2,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 5
+        },
+        {
+            "piece": "T",
+            "height": 2,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 3
+        },
+        {
+            "piece": "L",
+            "height": 2,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 4
+        },
+        {
+            "piece": "Z",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 4
+        },
+        {
+            "piece": "J",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 6
+        },
+        {
+            "piece": "O",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 8
+        },
+        {
+            "piece": "T",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 4
+        },
+        {
+            "piece": "J",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 8
+        },
+        {
+            "piece": "S",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 6
+        },
+        {
+            "piece": "I",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 6
+        },
+        {
+            "piece": "L",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 10
+        },
+        {
+            "piece": "Z",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 8
+        },
+        {
+            "piece": "O",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 6
+        },
+        {
+            "piece": "Z",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 6
+        },
+        {
+            "piece": "S",
+            "height": 5,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 5
+        },
+        {
+            "piece": "L",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 9
+        },
+        {
+            "piece": "T",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 9
+        },
+        {
+            "piece": "I",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 11
+        },
+        {
+            "piece": "J",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 13
+        },
+        {
+            "piece": "Z",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 11
+        },
+        {
+            "piece": "T",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 13
+        },
+        {
+            "piece": "S",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 15
+        },
+        {
+            "piece": "L",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 15
+        },
+        {
+            "piece": "O",
+            "height": 8,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 17
+        },
+        {
+            "piece": "I",
+            "height": 8,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 19
+        },
+        {
+            "piece": "J",
+            "height": 6,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 17
+        },
+        {
+            "piece": "L",
+            "height": 6,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 14
+        },
+        {
+            "piece": "I",
+            "height": 6,
+            "lines": 0,
+            "holes": 3,
+            "bumpiness": 12
+        },
+        {
+            "piece": "S",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 8
+        },
+        {
+            "piece": "O",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 6
+        },
+        {
+            "piece": "J",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 6
+        },
+        {
+            "piece": "Z",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 4
+        },
+        {
+            "piece": "T",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 7
+        },
+        {
+            "piece": "J",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 7
+        },
+        {
+            "piece": "L",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 7
+        },
+        {
+            "piece": "I",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "Z",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 11
+        },
+        {
+            "piece": "T",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 13
+        },
+        {
+            "piece": "S",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "O",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "L",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "O",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "I",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "T",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 7
+        },
+        {
+            "piece": "Z",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "S",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "J",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 10
+        },
+        {
+            "piece": "L",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 8
+        },
+        {
+            "piece": "Z",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 6
+        },
+        {
+            "piece": "O",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 6
+        },
+        {
+            "piece": "T",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 10
+        },
+        {
+            "piece": "I",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 6
+        },
+        {
+            "piece": "J",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 6
+        },
+        {
+            "piece": "S",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 10
+        },
+        {
+            "piece": "J",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 8
+        },
+        {
+            "piece": "S",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 8
+        },
+        {
+            "piece": "T",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 10
+        },
+        {
+            "piece": "Z",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 14
+        },
+        {
+            "piece": "O",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 12
+        },
+        {
+            "piece": "I",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 8
+        },
+        {
+            "piece": "L",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 10
+        },
+        {
+            "piece": "T",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "J",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 11
+        },
+        {
+            "piece": "O",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 8
+        },
+        {
+            "piece": "I",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 4
+        },
+        {
+            "piece": "S",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 5
+        },
+        {
+            "piece": "L",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 3
+        },
+        {
+            "piece": "Z",
+            "height": 4,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 3
+        },
+        {
+            "piece": "T",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 5
+        },
+        {
+            "piece": "O",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 7
+        },
+        {
+            "piece": "L",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 9
+        },
+        {
+            "piece": "S",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 7
+        },
+        {
+            "piece": "I",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 5
+        },
+        {
+            "piece": "Z",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 9
+        },
+        {
+            "piece": "J",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 13
+        },
+        {
+            "piece": "Z",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 13
+        },
+        {
+            "piece": "J",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 11
+        },
+        {
+            "piece": "L",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 11
+        },
+        {
+            "piece": "O",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 13
+        },
+        {
+            "piece": "S",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 11
+        },
+        {
+            "piece": "T",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 11
+        },
+        {
+            "piece": "I",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 7
+        },
+        {
+            "piece": "O",
+            "height": 6,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 11
+        },
+        {
+            "piece": "L",
+            "height": 4,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "I",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 7
+        },
+        {
+            "piece": "J",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 7
+        },
+        {
+            "piece": "S",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 5
+        },
+        {
+            "piece": "T",
+            "height": 4,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 6
+        },
+        {
+            "piece": "Z",
+            "height": 4,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 10
+        },
+        {
+            "piece": "I",
+            "height": 4,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 8
+        },
+        {
+            "piece": "O",
+            "height": 6,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 10
+        },
+        {
+            "piece": "L",
+            "height": 5,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 10
+        },
+        {
+            "piece": "Z",
+            "height": 5,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 8
+        },
+        {
+            "piece": "T",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 11
+        },
+        {
+            "piece": "J",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 13
+        },
+        {
+            "piece": "S",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 13
+        },
+        {
+            "piece": "Z",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 12
+        },
+        {
+            "piece": "S",
+            "height": 6,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 14
+        },
+        {
+            "piece": "O",
+            "height": 6,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 11
+        },
+        {
+            "piece": "J",
+            "height": 6,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 13
+        },
+        {
+            "piece": "T",
+            "height": 6,
+            "lines": 0,
+            "holes": 3,
+            "bumpiness": 9
+        },
+        {
+            "piece": "I",
+            "height": 5,
+            "lines": 0,
+            "holes": 3,
+            "bumpiness": 8
+        },
+        {
+            "piece": "L",
+            "height": 5,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 12
+        },
+        {
+            "piece": "T",
+            "height": 5,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 8
+        },
+        {
+            "piece": "I",
+            "height": 4,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 6
+        },
+        {
+            "piece": "S",
+            "height": 6,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 8
+        },
+        {
+            "piece": "L",
+            "height": 6,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 10
+        },
+        {
+            "piece": "J",
+            "height": 5,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 8
+        },
+        {
+            "piece": "Z",
+            "height": 4,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 6
+        },
+        {
+            "piece": "O",
+            "height": 4,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 8
+        },
+        {
+            "piece": "J",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "L",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "S",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 5
+        },
+        {
+            "piece": "Z",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 8
+        },
+        {
+            "piece": "I",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 6
+        },
+        {
+            "piece": "O",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 8
+        },
+        {
+            "piece": "T",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 6
+        },
+        {
+            "piece": "O",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "L",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 5
+        },
+        {
+            "piece": "S",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 5
+        },
+        {
+            "piece": "T",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 5
+        },
+        {
+            "piece": "Z",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 7
+        },
+        {
+            "piece": "I",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "J",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 9
+        },
+        {
+            "piece": "L",
+            "height": 2,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 5
+        },
+        {
+            "piece": "J",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 5
+        },
+        {
+            "piece": "Z",
+            "height": 3,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 9
+        },
+        {
+            "piece": "I",
+            "height": 4,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 11
+        },
+        {
+            "piece": "O",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 15
+        },
+        {
+            "piece": "T",
+            "height": 7,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 12
+        },
+        {
+            "piece": "S",
+            "height": 7,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 12
+        },
+        {
+            "piece": "I",
+            "height": 6,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 10
+        },
+        {
+            "piece": "T",
+            "height": 6,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 10
+        },
+        {
+            "piece": "O",
+            "height": 5,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 11
+        },
+        {
+            "piece": "J",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 13
+        },
+        {
+            "piece": "S",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 13
+        },
+        {
+            "piece": "Z",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 11
+        },
+        {
+            "piece": "L",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 11
+        },
+        {
+            "piece": "I",
+            "height": 7,
+            "lines": 0,
+            "holes": 1,
+            "bumpiness": 13
+        },
+        {
+            "piece": "O",
+            "height": 6,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 13
+        },
+        {
+            "piece": "T",
+            "height": 6,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 13
+        },
+        {
+            "piece": "S",
+            "height": 6,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 17
+        },
+        {
+            "piece": "L",
+            "height": 6,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 17
+        },
+        {
+            "piece": "Z",
+            "height": 6,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 7
+        },
+        {
+            "piece": "J",
+            "height": 6,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 7
+        },
+        {
+            "piece": "T",
+            "height": 4,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 5
+        },
+        {
+            "piece": "L",
+            "height": 6,
+            "lines": 0,
+            "holes": 3,
+            "bumpiness": 8
+        },
+        {
+            "piece": "O",
+            "height": 6,
+            "lines": 0,
+            "holes": 3,
+            "bumpiness": 6
+        },
+        {
+            "piece": "S",
+            "height": 6,
+            "lines": 0,
+            "holes": 3,
+            "bumpiness": 10
+        },
+        {
+            "piece": "Z",
+            "height": 5,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 7
+        },
+        {
+            "piece": "I",
+            "height": 5,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 7
+        },
+        {
+            "piece": "J",
+            "height": 7,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 9
+        },
+        {
+            "piece": "Z",
+            "height": 8,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 11
+        },
+        {
+            "piece": "I",
+            "height": 8,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 11
+        },
+        {
+            "piece": "J",
+            "height": 8,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 13
+        },
+        {
+            "piece": "O",
+            "height": 7,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 11
+        },
+        {
+            "piece": "S",
+            "height": 7,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 11
+        },
+        {
+            "piece": "L",
+            "height": 7,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 11
+        },
+        {
+            "piece": "T",
+            "height": 8,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 13
+        },
+        {
+            "piece": "J",
+            "height": 8,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 15
+        },
+        {
+            "piece": "S",
+            "height": 8,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 11
+        },
+        {
+            "piece": "L",
+            "height": 7,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 7
+        },
+        {
+            "piece": "O",
+            "height": 6,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 7
+        },
+        {
+            "piece": "Z",
+            "height": 7,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 9
+        },
+        {
+            "piece": "I",
+            "height": 8,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 13
+        },
+        {
+            "piece": "T",
+            "height": 9,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 13
+        },
+        {
+            "piece": "T",
+            "height": 9,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 15
+        },
+        {
+            "piece": "I",
+            "height": 10,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 17
+        },
+        {
+            "piece": "Z",
+            "height": 9,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 13
+        },
+        {
+            "piece": "L",
+            "height": 9,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 13
+        },
+        {
+            "piece": "J",
+            "height": 9,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 10
+        },
+        {
+            "piece": "S",
+            "height": 8,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 8
+        },
+        {
+            "piece": "O",
+            "height": 9,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 10
+        },
+        {
+            "piece": "L",
+            "height": 8,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 9
+        },
+        {
+            "piece": "T",
+            "height": 9,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 10
+        },
+        {
+            "piece": "I",
+            "height": 9,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 11
+        },
+        {
+            "piece": "Z",
+            "height": 8,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 9
+        },
+        {
+            "piece": "O",
+            "height": 7,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 11
+        },
+        {
+            "piece": "J",
+            "height": 7,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 11
+        },
+        {
+            "piece": "S",
+            "height": 7,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 10
+        },
+        {
+            "piece": "J",
+            "height": 8,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 12
+        },
+        {
+            "piece": "S",
+            "height": 8,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 12
+        },
+        {
+            "piece": "O",
+            "height": 9,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 16
+        },
+        {
+            "piece": "Z",
+            "height": 9,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 14
+        },
+        {
+            "piece": "I",
+            "height": 11,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 16
+        },
+        {
+            "piece": "L",
+            "height": 11,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 14
+        },
+        {
+            "piece": "T",
+            "height": 11,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 16
+        },
+        {
+            "piece": "T",
+            "height": 12,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 16
+        },
+        {
+            "piece": "J",
+            "height": 11,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 12
+        },
+        {
+            "piece": "S",
+            "height": 13,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 16
+        },
+        {
+            "piece": "Z",
+            "height": 13,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 14
+        },
+        {
+            "piece": "O",
+            "height": 13,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 14
+        },
+        {
+            "piece": "I",
+            "height": 13,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 16
+        },
+        {
+            "piece": "L",
+            "height": 11,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 12
+        },
+        {
+            "piece": "T",
+            "height": 11,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 10
+        },
+        {
+            "piece": "O",
+            "height": 11,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 10
+        },
+        {
+            "piece": "Z",
+            "height": 11,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 10
+        },
+        {
+            "piece": "L",
+            "height": 12,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 12
+        },
+        {
+            "piece": "J",
+            "height": 13,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 16
+        },
+        {
+            "piece": "S",
+            "height": 12,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 15
+        },
+        {
+            "piece": "I",
+            "height": 12,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 15
+        },
+        {
+            "piece": "J",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 11
+        },
+        {
+            "piece": "O",
+            "height": 10,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 10
+        },
+        {
+            "piece": "T",
+            "height": 10,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 10
+        },
+        {
+            "piece": "Z",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 10
+        },
+        {
+            "piece": "I",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 10
+        },
+        {
+            "piece": "S",
+            "height": 10,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 8
+        },
+        {
+            "piece": "L",
+            "height": 9,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 6
+        },
+        {
+            "piece": "J",
+            "height": 9,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 8
+        },
+        {
+            "piece": "I",
+            "height": 9,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 8
+        },
+        {
+            "piece": "L",
+            "height": 12,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 10
+        },
+        {
+            "piece": "T",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 11
+        },
+        {
+            "piece": "S",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 11
+        },
+        {
+            "piece": "Z",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 9
+        },
+        {
+            "piece": "O",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 7
+        },
+        {
+            "piece": "L",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 9
+        },
+        {
+            "piece": "J",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 9
+        },
+        {
+            "piece": "T",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 7
+        },
+        {
+            "piece": "O",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 9
+        },
+        {
+            "piece": "I",
+            "height": 9,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 7
+        },
+        {
+            "piece": "Z",
+            "height": 8,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 11
+        },
+        {
+            "piece": "S",
+            "height": 7,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 9
+        },
+        {
+            "piece": "T",
+            "height": 7,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 9
+        },
+        {
+            "piece": "S",
+            "height": 7,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 8
+        },
+        {
+            "piece": "O",
+            "height": 9,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 12
+        },
+        {
+            "piece": "Z",
+            "height": 9,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 10
+        },
+        {
+            "piece": "J",
+            "height": 9,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 12
+        },
+        {
+            "piece": "L",
+            "height": 10,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 14
+        },
+        {
+            "piece": "I",
+            "height": 9,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 12
+        },
+        {
+            "piece": "O",
+            "height": 12,
+            "lines": 0,
+            "holes": 5,
+            "bumpiness": 14
+        },
+        {
+            "piece": "J",
+            "height": 11,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 10
+        },
+        {
+            "piece": "S",
+            "height": 11,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 8
+        },
+        {
+            "piece": "L",
+            "height": 10,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 10
+        },
+        {
+            "piece": "T",
+            "height": 10,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 10
+        },
+        {
+            "piece": "Z",
+            "height": 10,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 10
+        },
+        {
+            "piece": "I",
+            "height": 10,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 10
+        },
+        {
+            "piece": "S",
+            "height": 9,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 9
+        },
+        {
+            "piece": "Z",
+            "height": 9,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 7
+        },
+        {
+            "piece": "T",
+            "height": 10,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 9
+        },
+        {
+            "piece": "I",
+            "height": 10,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 7
+        },
+        {
+            "piece": "L",
+            "height": 9,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 6
+        },
+        {
+            "piece": "J",
+            "height": 9,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 8
+        },
+        {
+            "piece": "O",
+            "height": 9,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 8
+        },
+        {
+            "piece": "L",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 12
+        },
+        {
+            "piece": "T",
+            "height": 12,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 14
+        },
+        {
+            "piece": "Z",
+            "height": 12,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 12
+        },
+        {
+            "piece": "S",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 14
+        },
+        {
+            "piece": "I",
+            "height": 12,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 16
+        },
+        {
+            "piece": "O",
+            "height": 12,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 14
+        },
+        {
+            "piece": "J",
+            "height": 12,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 12
+        },
+        {
+            "piece": "J",
+            "height": 11,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 10
+        },
+        {
+            "piece": "T",
+            "height": 10,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 10
+        },
+        {
+            "piece": "Z",
+            "height": 10,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 9
+        },
+        {
+            "piece": "S",
+            "height": 10,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 9
+        },
+        {
+            "piece": "I",
+            "height": 12,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 13
+        },
+        {
+            "piece": "L",
+            "height": 12,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 11
+        },
+        {
+            "piece": "O",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 15
+        },
+        {
+            "piece": "Z",
+            "height": 11,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 13
+        },
+        {
+            "piece": "L",
+            "height": 12,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 15
+        },
+        {
+            "piece": "J",
+            "height": 12,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 13
+        },
+        {
+            "piece": "T",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 7
+        },
+        {
+            "piece": "O",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 8
+        },
+        {
+            "piece": "I",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 10
+        },
+        {
+            "piece": "S",
+            "height": 10,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 8
+        },
+        {
+            "piece": "T",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 9
+        },
+        {
+            "piece": "J",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 5
+        },
+        {
+            "piece": "L",
+            "height": 10,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 5
+        },
+        {
+            "piece": "O",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 9
+        },
+        {
+            "piece": "I",
+            "height": 10,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 5
+        },
+        {
+            "piece": "S",
+            "height": 10,
+            "lines": 0,
+            "holes": 10,
+            "bumpiness": 4
+        },
+        {
+            "piece": "Z",
+            "height": 11,
+            "lines": 0,
+            "holes": 10,
+            "bumpiness": 4
+        },
+        {
+            "piece": "Z",
+            "height": 11,
+            "lines": 0,
+            "holes": 10,
+            "bumpiness": 8
+        },
+        {
+            "piece": "T",
+            "height": 12,
+            "lines": 0,
+            "holes": 10,
+            "bumpiness": 8
+        },
+        {
+            "piece": "I",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 11
+        },
+        {
+            "piece": "O",
+            "height": 12,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 13
+        },
+        {
+            "piece": "S",
+            "height": 12,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 11
+        },
+        {
+            "piece": "L",
+            "height": 12,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 13
+        },
+        {
+            "piece": "J",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 12
+        },
+        {
+            "piece": "J",
+            "height": 11,
+            "lines": 0,
+            "holes": 10,
+            "bumpiness": 8
+        },
+        {
+            "piece": "O",
+            "height": 10,
+            "lines": 0,
+            "holes": 11,
+            "bumpiness": 5
+        },
+        {
+            "piece": "S",
+            "height": 11,
+            "lines": 0,
+            "holes": 11,
+            "bumpiness": 5
+        },
+        {
+            "piece": "L",
+            "height": 11,
+            "lines": 0,
+            "holes": 11,
+            "bumpiness": 3
+        },
+        {
+            "piece": "T",
+            "height": 10,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 7
+        },
+        {
+            "piece": "Z",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 7
+        },
+        {
+            "piece": "I",
+            "height": 10,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 5
+        },
+        {
+            "piece": "O",
+            "height": 10,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 3
+        },
+        {
+            "piece": "S",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 5
+        },
+        {
+            "piece": "Z",
+            "height": 12,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 7
+        },
+        {
+            "piece": "I",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 7
+        },
+        {
+            "piece": "T",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 5
+        },
+        {
+            "piece": "J",
+            "height": 12,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 7
+        },
+        {
+            "piece": "L",
+            "height": 12,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 9
+        },
+        {
+            "piece": "Z",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 8
+        },
+        {
+            "piece": "I",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 10
+        },
+        {
+            "piece": "T",
+            "height": 11,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 12
+        },
+        {
+            "piece": "J",
+            "height": 9,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 10
+        },
+        {
+            "piece": "L",
+            "height": 10,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 9
+        },
+        {
+            "piece": "O",
+            "height": 10,
+            "lines": 0,
+            "holes": 8,
+            "bumpiness": 9
+        }
+    ]
+}
