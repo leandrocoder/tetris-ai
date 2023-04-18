@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tetris</title>
-    <script src="tetris.js"></script>
-    <script src="input.js"></script>
-    <script src="tetris.ai.js"></script>
-</head>
-
-<body>
-    <canvas id="game"></canvas>
-    <canvas id="next"></canvas>
-    <script>
-        const tetris1 = new Tetris();
-        tetris1.start();
-        playerInput(tetris1);
-    </script>
-</body>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tetris</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="tetris.js"></script>
+        <script src="input.js"></script>
+        <script src="tetris.ai.js"></script>
+    </head>
+    <body>
+        <canvas id="game"></canvas>
+        <canvas id="next"></canvas>
+        <script>
+            const tetris1 = new Tetris();
+            tetris1.start();
+            playerInput(tetris1);
+        </script>
+    </body>
 </html>

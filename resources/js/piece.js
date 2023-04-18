@@ -1,21 +1,3 @@
-class Piece(cells) {
-    constructor(cells) {
-        this.cells = cells;
-        this.dimension = this.cells.length;
-        this.row = 0;
-        this.column = 0;
-    }
-
-    static fromIndex(index) {
-    }
-
-    rotate() {
-    }
-
-    
-}
-
-
 function Piece(cells){
     this.cells = cells;
     this.dimension = this.cells.length;

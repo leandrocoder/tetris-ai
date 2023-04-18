@@ -31,14 +31,8 @@ class Tetris {
         }
 
         this.grid = this.createMatrix(10, this.options.rows + 2);
-        this.piece = {
-            type: 'O',
-            pos: { x: 0, y: 0 },
-            matrix: null
-        };
-
+        this.piece = null;
         this.nextPiece = null;
-        this.nextPieceMatrix = null;
 
         this.colors = [
             null,
@@ -79,9 +73,9 @@ class Tetris {
         return matrix;
     }
 
-    collide(grid, piece) {
-        const m = piece.matrix;
-        const o = piece.pos;
+    collide(grid, matrix, pos) {
+        const m = matrix;
+        const o = pos;
         for (let y = 0; y < m.length; ++y) {
             for (let x = 0; x < m[y].length; ++x) {
                 if (m[y][x] !== 0 &&
@@ -104,22 +98,28 @@ class Tetris {
         });
     }
 
-    drop() {
-        this.piece.pos.y++;
-        if (this.collide(this.grid, this.piece)) {
-            this.piece.pos.y--;
-            this.merge(this.grid, this.piece);
+    drop(piece, grid) {
+        if (!piece) piece = this.piece;
+        if (!grid) grid = this.grid;
+        piece.pos.y++;
+        if (this.collide(grid, piece.matrix, piece.pos)) {
+            piece.pos.y--;
+            this.merge(grid, piece);
             this.pieceReset();
             this.clearLines();
         }
         this.dropCounter = 0;
     }
 
-    move(offset) {
-        this.piece.pos.x += offset;
-        if (this.collide(this.grid, this.piece)) {
-            this.piece.pos.x -= offset;
+    move(offset, piece, grid) {
+        if (!piece) piece = this.piece;
+        if (!grid) grid = this.grid;
+        piece.pos.x += offset;
+        if (this.collide(grid, piece.matrix, piece.pos)) {
+            piece.pos.x -= offset;
+            return false;
         }
+        return true;
     }
 
     randomizePiece() {
@@ -136,29 +136,27 @@ class Tetris {
     }
 
     pieceReset() {
-        this.piece.type = this.nextPiece || this.randomizePiece();
-        this.piece.matrix = this.createPiece(this.piece.type);
-        this.piece.pos.y = 0;
-        this.piece.pos.x = (this.grid[0].length / 2 | 0) - (this.piece.matrix[0].length / 2 | 0);
         
-        this.nextPiece = this.randomizePiece();
-        this.nextPieceMatrix = this.createPiece(this.nextPiece);
+        this.piece = this.createPiece(this.nextPiece?.type || this.randomizePiece());
+        this.nextPiece = this.createPiece(this.randomizePiece());
 
-        if (this.collide(this.grid, this.piece)) {
+        if (this.collide(this.grid, this.piece.matrix, this.piece.pos)) {
             this.grid.forEach(row => row.fill(0));
         }
     }
 
-    rotate(dir) {
-        const pos = this.piece.pos.x;
+    rotate(dir, piece, grid) {
+        if (!piece) piece = this.piece;
+        if (!grid) grid = this.grid;
+        const pos = piece.pos.x;
         let offset = 1;
-        this._rotate(this.piece.matrix, dir);
-        while (this.collide(this.grid, this.piece)) {
-            this.piece.pos.x += offset;
+        this._rotate(piece.matrix, dir);
+        while (this.collide(grid, piece.matrix, piece.pos)) {
+            piece.pos.x += offset;
             offset = -(offset + (offset > 0 ? 1 : -1));
-            if (offset > this.piece.matrix[0].length) {
-                this._rotate(this.piece.matrix, -dir);
-                this.piece.pos.x = pos;
+            if (offset > piece.matrix[0].length) {
+                this._rotate(piece.matrix, -dir);
+                piece.pos.x = pos;
                 return;
             }
         }
@@ -182,7 +180,10 @@ class Tetris {
         requestAnimationFrame(this.drawNextPiece);
         this.nextCtx.fillStyle = '#F0EAD6';
         this.nextCtx.fillRect(0, 0, this.nextCanvas.width, this.nextCanvas.height);
-        this.drawMatrix(this.nextCtx, this.nextPieceMatrix, { x: 0, y: 0 });
+        this.drawMatrix(this.nextCtx, this.nextPiece?.matrix, { 
+            x: (4 - this.nextPiece?.matrix[0].length) / 2 , 
+            y: (4 - this.nextPiece?.matrix.length) / 2
+        });
     }
 
     draw() {
@@ -190,7 +191,7 @@ class Tetris {
         this.ctx.fillStyle = '#F0EAD6';
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
         this.drawMatrix(this.ctx, this.grid, { x: 0, y: -2 });
-        this.drawMatrix(this.ctx, this.piece.matrix, { x: this.piece.pos.x, y: this.piece.pos.y - 2 });
+        this.drawMatrix(this.ctx, this.piece?.matrix, { x: this.piece?.pos?.x, y: this.piece?.pos?.y - 2 });
     }
 
     drawMatrix(ctx, matrix, offset) {
@@ -239,48 +240,54 @@ class Tetris {
     }
 
     createPiece(type) {
+        const piece = { type };
         if (type === 'T') {
-            return [
+            piece.matrix = [
                 [1, 1, 1],
                 [0, 1, 0],
                 [0, 0, 0],
             ];
         } else if (type === 'O') {
-            return [
+            piece.matrix = [
                 [2, 2],
                 [2, 2],
             ];
         } else if (type === 'L') {
-            return [
+            piece.matrix = [
                 [0, 3, 0],
                 [0, 3, 0],
                 [0, 3, 3],
             ];
         } else if (type === 'J') {
-            return [
+            piece.matrix = [
                 [0, 4, 0],
                 [0, 4, 0],
                 [4, 4, 0],
             ];
         } else if (type === 'I') {
-            return [
+            piece.matrix = [
                 [0, 5, 0, 0],
                 [0, 5, 0, 0],
                 [0, 5, 0, 0],
                 [0, 5, 0, 0],
             ];
         } else if (type === 'S') {
-            return [
+            piece.matrix = [
                 [0, 6, 6],
                 [6, 6, 0],
                 [0, 0, 0],
             ];
         } else if (type === 'Z') {
-            return [
+            piece.matrix = [
                 [7, 7, 0],
                 [0, 7, 7],
                 [0, 0, 0],
             ];
         }
+        piece.pos = { 
+            x: Math.floor((this.options.cols - piece.matrix[0].length) / 2), 
+            y: 0 
+        };
+        return piece;
     }
 }
