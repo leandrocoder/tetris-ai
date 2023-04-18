@@ -1,13 +1,32 @@
+class Piece(cells) {
+    constructor(cells) {
+        this.cells = cells;
+        this.dimension = this.cells.length;
+        this.row = 0;
+        this.column = 0;
+    }
+
+    static fromIndex(index) {
+    }
+
+    rotate() {
+    }
+
+    
+}
+
+
 function Piece(cells){
     this.cells = cells;
-
     this.dimension = this.cells.length;
     this.row = 0;
     this.column = 0;
 };
 
 Piece.fromIndex = function(index){
-    var piece;
+    const types = ['O', 'J', 'L', 'Z', 'S', 'T', 'I'];
+    let piece = {}
+    piece.type = types[index];
     switch (index){
         case 0:// O
             piece = new Piece([
@@ -61,8 +80,7 @@ Piece.fromIndex = function(index){
 
     }
     piece.row = 0;
-    piece.column = Math.floor((10 - piece.dimension) / 2); // Centralize
-    const types = ['O', 'J', 'L', 'Z', 'S', 'T', 'I'];
+    piece.column = Math.floor((10 - piece.dimension) / 2);
     piece.type = types[index];
     return piece;
 };

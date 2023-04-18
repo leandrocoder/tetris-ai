@@ -20,8 +20,8 @@ function GameManager({onGameOver, onStartTurn, onLineClear}){
 
     var workingPieces = null;
     var workingPiece = null;
-    var isAiActive = true;
-    var isKeyEnabled = false;
+    var isAiActive = false;
+    var isKeyEnabled = true;
     var gravityTimer = new Timer(onGravityTimerTick, 500);
     var score = 0;
 

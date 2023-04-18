@@ -1,0 +1,103 @@
+{
+    "id": 0,
+    "cols": 8,
+    "rows": 20,
+    "pieces": [
+        "O",
+        "J",
+        "L",
+        "Z",
+        "S",
+        "T",
+        "I"
+    ],
+    "lines": 0,
+    "level": 1,
+    "drops": 13,
+    "logs": [
+        {
+            "piece": "I",
+            "height": 0,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 0
+        },
+        {
+            "piece": "L",
+            "height": 1,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 2
+        },
+        {
+            "piece": "T",
+            "height": 3,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 6
+        },
+        {
+            "piece": "O",
+            "height": 5,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 10
+        },
+        {
+            "piece": "J",
+            "height": 7,
+            "lines": 0,
+            "holes": 3,
+            "bumpiness": 14
+        },
+        {
+            "piece": "S",
+            "height": 9,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 18
+        },
+        {
+            "piece": "Z",
+            "height": 11,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 22
+        },
+        {
+            "piece": "J",
+            "height": 13,
+            "lines": 0,
+            "holes": 11,
+            "bumpiness": 26
+        },
+        {
+            "piece": "I",
+            "height": 15,
+            "lines": 0,
+            "holes": 12,
+            "bumpiness": 30
+        },
+        {
+            "piece": "L",
+            "height": 16,
+            "lines": 0,
+            "holes": 28,
+            "bumpiness": 32
+        },
+        {
+            "piece": "O",
+            "height": 18,
+            "lines": 0,
+            "holes": 28,
+            "bumpiness": 36
+        },
+        {
+            "piece": "Z",
+            "height": 20,
+            "lines": 0,
+            "holes": 29,
+            "bumpiness": 40
+        }
+    ]
+}

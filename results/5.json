@@ -1,0 +1,103 @@
+{
+    "id": 4,
+    "cols": 10,
+    "rows": 20,
+    "pieces": [
+        "O",
+        "J",
+        "L",
+        "Z",
+        "S",
+        "T",
+        "I"
+    ],
+    "lines": 0,
+    "level": 1,
+    "drops": 13,
+    "logs": [
+        {
+            "piece": "L",
+            "height": 0,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 0
+        },
+        {
+            "piece": "Z",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 4
+        },
+        {
+            "piece": "J",
+            "height": 4,
+            "lines": 0,
+            "holes": 3,
+            "bumpiness": 8
+        },
+        {
+            "piece": "T",
+            "height": 6,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 12
+        },
+        {
+            "piece": "O",
+            "height": 8,
+            "lines": 0,
+            "holes": 6,
+            "bumpiness": 16
+        },
+        {
+            "piece": "S",
+            "height": 10,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 20
+        },
+        {
+            "piece": "I",
+            "height": 12,
+            "lines": 0,
+            "holes": 11,
+            "bumpiness": 24
+        },
+        {
+            "piece": "Z",
+            "height": 13,
+            "lines": 0,
+            "holes": 24,
+            "bumpiness": 26
+        },
+        {
+            "piece": "J",
+            "height": 15,
+            "lines": 0,
+            "holes": 25,
+            "bumpiness": 30
+        },
+        {
+            "piece": "I",
+            "height": 17,
+            "lines": 0,
+            "holes": 26,
+            "bumpiness": 34
+        },
+        {
+            "piece": "O",
+            "height": 18,
+            "lines": 0,
+            "holes": 32,
+            "bumpiness": 36
+        },
+        {
+            "piece": "T",
+            "height": 20,
+            "lines": 0,
+            "holes": 32,
+            "bumpiness": 40
+        }
+    ]
+}

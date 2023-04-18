@@ -1,0 +1,110 @@
+{
+    "id": 1,
+    "cols": 8,
+    "rows": 20,
+    "pieces": [
+        "O",
+        "J",
+        "L",
+        "Z",
+        "S",
+        "T",
+        "I"
+    ],
+    "lines": 0,
+    "level": 1,
+    "drops": 14,
+    "logs": [
+        {
+            "piece": "L",
+            "height": 0,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 0
+        },
+        {
+            "piece": "I",
+            "height": 2,
+            "lines": 0,
+            "holes": 0,
+            "bumpiness": 2
+        },
+        {
+            "piece": "J",
+            "height": 2,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 2
+        },
+        {
+            "piece": "O",
+            "height": 2,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 2
+        },
+        {
+            "piece": "T",
+            "height": 4,
+            "lines": 0,
+            "holes": 2,
+            "bumpiness": 6
+        },
+        {
+            "piece": "S",
+            "height": 6,
+            "lines": 0,
+            "holes": 4,
+            "bumpiness": 10
+        },
+        {
+            "piece": "Z",
+            "height": 8,
+            "lines": 0,
+            "holes": 7,
+            "bumpiness": 14
+        },
+        {
+            "piece": "L",
+            "height": 10,
+            "lines": 0,
+            "holes": 9,
+            "bumpiness": 18
+        },
+        {
+            "piece": "O",
+            "height": 12,
+            "lines": 0,
+            "holes": 10,
+            "bumpiness": 22
+        },
+        {
+            "piece": "Z",
+            "height": 14,
+            "lines": 0,
+            "holes": 11,
+            "bumpiness": 26
+        },
+        {
+            "piece": "T",
+            "height": 16,
+            "lines": 0,
+            "holes": 15,
+            "bumpiness": 30
+        },
+        {
+            "piece": "J",
+            "height": 18,
+            "lines": 0,
+            "holes": 16,
+            "bumpiness": 34
+        },
+        {
+            "piece": "S",
+            "height": 20,
+            "lines": 0,
+            "holes": 18,
+            "bumpiness": 38
+        }
+    ]
+}
