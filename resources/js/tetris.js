@@ -255,7 +255,7 @@ class Tetris {
         this.ctx.fillStyle = '#F0EAD6';
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
         this.drawMatrix(this.ctx, this.grid, { x: 0, y: -2 });
-        this.drawMatrix(this.ctx, this.projectGhost()?.matrix, { x: this.projectGhost()?.pos?.x, y: this.projectGhost()?.pos?.y - 2 }, '#00000022');
+        this.drawMatrix(this.ctx, this.projectGhost()?.matrix, { x: this.projectGhost()?.pos?.x, y: this.projectGhost()?.pos?.y - 2 }, '#00000011');
         this.drawMatrix(this.ctx, this.piece?.matrix, { x: this.piece?.pos?.x, y: this.piece?.pos?.y - 2 });
     }
 
@@ -274,7 +274,6 @@ class Tetris {
     }
 
     update() {
-        //requestAnimationFrame(this.update);
         setTimeout(() => this.update(), 0);
         if (!this.running) return;
         for (let i = 0; i < this.options.tickSpeed; i++) {

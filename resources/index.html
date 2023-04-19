@@ -19,13 +19,22 @@
         h1 {
             margin: 0;
         }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: #007bff;
+            text-decoration: underline;
+        }
     </style>
 </head>
 
 <body>
     <div style="display: flex; align-items: center; justify-content: center; gap: 8px">
         <div style="display: flex; flex-direction:column; gap: 8px">
-            <h1><b>TETRIS AI</b></h1>
+            <h1><b>TETRIS</b></h1>
             <div>
                 <input type="checkbox" id="chkNextPiece" checked>
                 <label for="chkNextPiece">Show Next Piece</label>
@@ -44,6 +53,12 @@
                 <input type="range" min="1" max="80" id="tickSpeed" value="1">
             </div>
             <button id="btnReset">RESET</button>
+            <!--
+
+                <a style='display: flex; gap: 8px; align-items: center; margin-top: 16px;' target="_blank" href="https://github.com/leandrocoder/tetris-ai">
+                    <img src='github-mark.svg' height="24px"><p>leandrocoder</p>
+                </a>
+            -->
         </div>
         <div><canvas id="game"></canvas></div>
         <div style="display: flex; flex-direction: column; gap:4px; text-align: center;">
@@ -59,7 +74,7 @@
         </div>
     </div>
     <script>
-
+        
         const btnReset = document.getElementById("btnReset");
         const txtLineCounter = document.getElementById("txtLineCounter");
         const tickSpeed = document.getElementById("tickSpeed");
